@@ -13,6 +13,7 @@
 		B68549891A186EC200EB22D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B68549881A186EC200EB22D8 /* Images.xcassets */; };
 		B685498C1A186EC200EB22D8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B685498A1A186EC200EB22D8 /* LaunchScreen.xib */; };
 		B68549981A186EC200EB22D8 /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68549971A186EC200EB22D8 /* TipCalculatorTests.swift */; };
+		B68549A21A186FC500EB22D8 /* TipCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68549A11A186FC500EB22D8 /* TipCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		B68549911A186EC200EB22D8 /* TipCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B68549961A186EC200EB22D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B68549971A186EC200EB22D8 /* TipCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorTests.swift; sourceTree = "<group>"; };
+		B68549A11A186FC500EB22D8 /* TipCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipCalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		B68549731A186EC200EB22D8 = {
 			isa = PBXGroup;
 			children = (
+				B68549A11A186FC500EB22D8 /* TipCalculator.swift */,
 				B685497E1A186EC200EB22D8 /* TipCalculator */,
 				B68549941A186EC200EB22D8 /* TipCalculatorTests */,
 				B685497D1A186EC200EB22D8 /* Products */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B68549A21A186FC500EB22D8 /* TipCalculator.swift in Sources */,
 				B68549841A186EC200EB22D8 /* ViewController.swift in Sources */,
 				B68549821A186EC200EB22D8 /* AppDelegate.swift in Sources */,
 			);
